@@ -1,0 +1,66 @@
+2019-12-13 17:40:53,757 - logs… - INFO - {
+  "code": 500,
+  "error_data": {},
+  "exception": "HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "message": "Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "path": "/api/v1/user/backyard_login",
+  "timestamp": "2019-12-13 17:40:53"
+}
+2019-12-13 17:43:28,970 - logs… - INFO - {
+  "code": 500,
+  "error_data": {},
+  "exception": "HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "message": "Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "path": "/api/v1/user/backyard_login",
+  "timestamp": "2019-12-13 17:43:28"
+}
+2019-12-13 17:47:27,847 - logs… - INFO - {
+  "code": 500,
+  "error_data": {},
+  "exception": "HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "message": "Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "path": "/api/v1/user/backyard_login",
+  "timestamp": "2019-12-13 17:47:27"
+}
+2019-12-14 09:08:31,399 - logs… - INFO - {
+  "code": 500,
+  "error_data": {},
+  "exception": "HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "message": "Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "path": "/api/v1/user/backyard_login",
+  "timestamp": "2019-12-14 09:08:30"
+}
+2019-12-14 09:09:48,860 - logs… - INFO - {
+  "code": 500,
+  "error_data": {},
+  "exception": "HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "message": "Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "path": "/api/v1/user/backyard_login",
+  "timestamp": "2019-12-14 09:09:48"
+}
+2019-12-14 09:12:53,304 - logs… - INFO - {
+  "code": 500,
+  "error_data": {},
+  "exception": "HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "message": "Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "path": "/api/v1/user/backyard_login",
+  "timestamp": "2019-12-14 09:12:52"
+}
+2019-12-14 10:09:13,572 - logs… - INFO - resultPathD:\interfaceTest\result\report.html
+2019-12-14 10:09:13,572 - logs… - INFO - caseListFileD:\interfaceTest\caselist.txt
+2019-12-14 10:09:13,572 - logs… - INFO - caseList[]
+2019-12-14 10:12:01,434 - logs… - INFO - resultPathD:\interfaceTest\result\report.html
+2019-12-14 10:12:01,435 - logs… - INFO - caseListFileD:\interfaceTest\caselist.txt
+2019-12-14 10:12:01,435 - logs… - INFO - caseList[]
+2019-12-14 10:21:13,704 - logs… - INFO - resultPathD:\interfaceTest\result\report.html
+2019-12-14 10:21:13,704 - logs… - INFO - caseListFileD:\interfaceTest\caselist.txt
+2019-12-14 10:21:13,704 - logs… - INFO - caseList[]
+2019-12-14 10:22:12,242 - logs… - INFO - resultPathD:\interfaceTest\result\report.html
+2019-12-14 10:22:12,242 - logs… - INFO - caseListFileD:\interfaceTest\caselist.txt
+2019-12-14 10:22:12,242 - logs… - INFO - caseList[]
+2019-12-14 11:07:39,445 - logs… - INFO - resultPathD:\interfaceTest\result\report.html
+2019-12-14 11:07:39,446 - logs… - INFO - caseListFileD:\interfaceTest\caselist.txt
+2019-12-14 11:07:39,446 - logs… - INFO - caseList[]
+2019-12-14 11:53:03,165 - logs… - INFO - resultPathD:\interfaceTest\result\report.html
+2019-12-14 11:53:03,165 - logs… - INFO - caseListFileD:\interfaceTest\caselist.txt
+2019-12-14 11:53:03,165 - logs… - INFO - caseList[]

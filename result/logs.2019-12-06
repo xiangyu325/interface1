@@ -1,0 +1,16 @@
+2019-12-06 17:32:58,410 - logs… - INFO - {
+  "code": 10001,
+  "message": "参数不能为空！"
+}
+2019-12-06 17:36:13,594 - logs… - INFO - {
+  "code": 10001,
+  "message": "参数不能为空！"
+}
+2019-12-06 17:40:40,536 - logs… - INFO - {
+  "code": 500,
+  "error_data": {},
+  "exception": "HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "message": "Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported",
+  "path": "/api/v1/user/backyard_login",
+  "timestamp": "2019-12-06 17:40:40"
+}
