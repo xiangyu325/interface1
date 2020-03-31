@@ -7,6 +7,7 @@ import os
 import readConfig
 import getpathInfo
 from common.Log import logger
+
 read_conf = readConfig.ReadConfig()
 HOST = read_conf.get_email('HOST')#从配置文件中读取，邮件主题
 FROM = read_conf.get_email('FROM')#从配置文件中读取，邮件发送人

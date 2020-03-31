@@ -1,9 +1,9 @@
 import requests
 payload = {
-        "password": "zhangwei@123",
+        "password": "Scaijia123",
         "platform": 1,
         "tenant_domain": "web",
-        "username": "zhangweia"
+        "username": "S19bk_t_admin"
     }
 def gettoken():
     url = "https://t-u1.sancaijia.net/api/v1/user/backyard_login"

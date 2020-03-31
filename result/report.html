@@ -191,9 +191,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>Test Report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-12-26 17:18:40</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:01.674686</p>
-<p class='attribute'><strong>Status:</strong> Pass 3 | Failure 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2020-03-31 11:39:25</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:02.335783</p>
+<p class='attribute'><strong>Status:</strong> Pass 2 | Failure 3</p>
 
 <p class='description'>Test Description</p>
 </div>
@@ -223,43 +223,37 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='failClass'>
+<tr class='passClass'>
     <td>paramunittest.testUserLogin_0</td>
     <td>login</td>
     <td>1</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td colspan='2' class='failCase'><div class='testcase'>test01case</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test01case</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        fail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: login测试开始前准备
-http://t-u1.sancaijia.net/api/v1/user/backyard_login
-{'exception': 'BasicException{type=USER_NOT_FOUND}', 'message': '用户没有找到.', 'path': '/api/v1/user/backyard_login', 'timestamp': '2019-12-26 17:18:38', 'error_data': {}, 'code': 101010103}
+pt1.1: login测试开始前准备
+https://t-u1.sancaijia.net/api/v1/user/backyard_login
+{'code': 200, 'message': 'Success.', 'timestamp': '2020-03-31 11:39:24', 'data': {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJLZW4iLCJ1c2VyVHlwZSI6IlBMQVRGT1JNX0FETUlOIiwidXNlcklkIjoxMTY3NzgzNDMwNzE3NDQsImp0aSI6IlRPS0VOXzExNjc3ODM0MzA3MTc0NF9INV82MGFhMWZmNDJiMjVlYmJlNjUxZGY1OWE5MzFkOWIzNWNmNzg2NDFkIiwicGxhdGZvcm0iOiJDTElFTlRfSDUiLCJoYXNoIjoiNjBhYTFmZjQyYjI1ZWJiZTY1MWRmNTlhOTMxZDliMzVjZjc4NjQxZCJ9.WK1QvTzEgttuB9AoxdU_yyD4vIo5SXlvR-o0tI4dztE', 'password_due_time': '', 'password_flag': True, 'default_password_flag': False}}
 测试结束，输出log完结
 
 
-Traceback (most recent call last):
-  File "D:\interfaceTest\testCase\test02case.py", line 44, in test01case
-    self.checkResult()
-  File "D:\interfaceTest\testCase\test02case.py", line 61, in checkResult
-    self.assertEqual(info['code'], 200)
-AssertionError: 101010103 != 200
 
 
         </pre>
@@ -295,8 +289,8 @@ AssertionError: 101010103 != 200
         <pre>
         
 ft2.1: login测试开始前准备
-http://t-u1.sancaijia.net/api/v1/user/backyard_login
-{'exception': 'BasicException{type=BAD_LOGIN_REQUEST}', 'message': '错误登录请求.', 'path': '/api/v1/user/backyard_login', 'timestamp': '2019-12-26 17:18:39', 'error_data': {}, 'code': 101010101}
+https://t-u1.sancaijia.net/api/v1/user/backyard_login
+{'exception': 'BasicException{type=BAD_LOGIN_REQUEST}', 'message': '错误登录请求.', 'path': '/api/v1/user/backyard_login', 'timestamp': '2020-03-31 11:39:25', 'error_data': {}, 'code': 101010101}
 测试结束，输出log完结
 
 
@@ -315,37 +309,43 @@ AssertionError: 101010101 != 200
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.testUserLogin_2</td>
     <td>login</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
 </tr>
 
-<tr id='pt3.1' class='hiddenRow'>
-    <td colspan='2' class='none'><div class='testcase'>test01case</div></td>
+<tr id='ft3.1' class='none'>
+    <td colspan='2' class='failCase'><div class='testcase'>test01case</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
+        fail</a>
 
-    <div id='div_pt3.1' class="popup_window">
+    <div id='div_ft3.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt3.1: login测试开始前准备
-http://t-u1.sancaijia.net/api/v1/user/backyard_login
-{'code': 200, 'message': 'Success.', 'timestamp': '2019-12-26 17:18:39', 'data': {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJLZW4iLCJ1c2VyVHlwZSI6IlBMQVRGT1JNX0FETUlOIiwidXNlcklkIjoxMTcyNTM1MzUzNjcxNjgsImp0aSI6IlRPS0VOXzExNzI1MzUzNTM2NzE2OF9INV8xMzNjNmJhNjkyYzRmYjczYzA1MmVmNWUyMjkzZDk4ZDg3NjNmOGU0IiwicGxhdGZvcm0iOiJDTElFTlRfSDUiLCJoYXNoIjoiMTMzYzZiYTY5MmM0ZmI3M2MwNTJlZjVlMjI5M2Q5OGQ4NzYzZjhlNCJ9.1QMAnn-GhrOIeUKJ77LnAl6rBdAxuekjKJ9PEypudy8', 'password_due_time': '', 'password_flag': True, 'default_password_flag': False}}
+ft3.1: login测试开始前准备
+https://t-u1.sancaijia.net/api/v1/user/backyard_login
+{'exception': 'BasicException{type=USER_NOT_FOUND}', 'message': '用户没有找到.', 'path': '/api/v1/user/backyard_login', 'timestamp': '2020-03-31 11:39:25', 'error_data': {}, 'code': 101010103}
 测试结束，输出log完结
 
 
+Traceback (most recent call last):
+  File "D:\interfaceTest\testCase\test02case.py", line 44, in test01case
+    self.checkResult()
+  File "D:\interfaceTest\testCase\test02case.py", line 61, in checkResult
+    self.assertEqual(info['code'], 200)
+AssertionError: 101010103 != 200
 
 
         </pre>
@@ -355,37 +355,43 @@ http://t-u1.sancaijia.net/api/v1/user/backyard_login
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.testUserLogin_3</td>
     <td>login</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c4',1)">Detail</a></td>
 </tr>
 
-<tr id='pt4.1' class='hiddenRow'>
-    <td colspan='2' class='none'><div class='testcase'>test01case</div></td>
+<tr id='ft4.1' class='none'>
+    <td colspan='2' class='failCase'><div class='testcase'>test01case</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.1')" >
+        fail</a>
 
-    <div id='div_pt4.1' class="popup_window">
+    <div id='div_ft4.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft4.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt4.1: login测试开始前准备
-http://t-u1.sancaijia.net/api/v1/user/backyard_login
-{'code': 200, 'message': 'Success.', 'timestamp': '2019-12-26 17:18:39', 'data': {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJLZW4iLCJ1c2VyVHlwZSI6IlBMQVRGT1JNX0FETUlOIiwidXNlcklkIjoxMTcyNTM2MTAzNDAzNTIsImp0aSI6IlRPS0VOXzExNzI1MzYxMDM0MDM1Ml9INV9iZTQ1ZTU3ZDUzZjVmMDg3M2U5NTJiMmJmMjk0NWQ5YjY5MDcyNWUxIiwicGxhdGZvcm0iOiJDTElFTlRfSDUiLCJoYXNoIjoiYmU0NWU1N2Q1M2Y1ZjA4NzNlOTUyYjJiZjI5NDVkOWI2OTA3MjVlMSJ9.IUYqvizw_yDlzE-TUsSdw3Cs5YhWT33vIUzP-zBA1bU', 'password_due_time': '', 'password_flag': True, 'default_password_flag': False}}
+ft4.1: login测试开始前准备
+https://t-u1.sancaijia.net/api/v1/user/backyard_login
+{'exception': 'BasicException{type=USER_NOT_FOUND}', 'message': '用户没有找到.', 'path': '/api/v1/user/backyard_login', 'timestamp': '2020-03-31 11:39:26', 'error_data': {}, 'code': 101010103}
 测试结束，输出log完结
 
 
+Traceback (most recent call last):
+  File "D:\interfaceTest\testCase\test02case.py", line 44, in test01case
+    self.checkResult()
+  File "D:\interfaceTest\testCase\test02case.py", line 61, in checkResult
+    self.assertEqual(info['code'], 200)
+AssertionError: 101010103 != 200
 
 
         </pre>
@@ -421,8 +427,8 @@ http://t-u1.sancaijia.net/api/v1/user/backyard_login
         <pre>
         
 pt5.1: login测试开始前准备
-http://t-u1.sancaijia.net/api/v1/user/address/address_list
-{'code': 200, 'message': 'Success.', 'timestamp': '2019-12-26 17:18:40', 'data': [{'id': '118573808386048', 'user_id': '117253506531328', 'receiving_user': '莫愁111111111', 'receiving_phone': '13619131076', 'tacitly': True, 'province_code': '610000000000', 'province_name': '陕西省', 'city_code': '610100000000', 'city_name': '西安市', 'region_code': '610102000000', 'region_name': '新城区', 'detail_address': '陕西省西安市新城区东城桃园2号楼栋2单元单元1806室', 'building_no': '2号楼', 'unit_no': '2单元', 'room_no': '1806', 'building_id': '', 'building_name': '东城桃园', 'room_address': '2号楼栋2单元单元1806室', 'address': '凤城五路', 'courier_id': '', 'courier_name': ''}]}
+https://t-u1.sancaijia.net/api/v1/user/address/address_list
+{'code': 200, 'message': 'Success.', 'timestamp': '2020-03-31 11:39:26', 'data': []}
 测试结束，输出log完结
 
 
@@ -438,8 +444,8 @@ http://t-u1.sancaijia.net/api/v1/user/address/address_list
 <tr id='total_row'>
     <td colspan='2'>Total</td>
     <td>5</td>
-    <td>3</td>
     <td>2</td>
+    <td>3</td>
     <td>0</td>
     <td>&nbsp;</td>
 </tr>

@@ -1,11 +1,9 @@
 #传递token的接口方法
-import json
 import unittest
 from common.configHttp import RunMain
 from common.GetToken import gettoken
 import paramunittest
 import geturlParams
-import urllib.parse
 import readExcel
 url = geturlParams.geturlParams().get_Url()# 调用我们的geturlParams获取我们拼接的URL
 print(url)

@@ -23,7 +23,7 @@ class RunMain():
         return result
 
 if __name__ == '__main__':  # 通过写死参数，来验证我们写的请求是否正确
-    a = {"password": "zhangwei@123", "platform": 1,   "tenant_domain": "web",  "username": "zhangweia"}
+    a = {"password": "Scaijia123", "platform": 1,   "tenant_domain": "web",  "username": "S19bk_t_admin"}
     result1 = RunMain().run_main('post', 'https://t-u1.sancaijia.net/api/v1/user/backyard_login',a,None)
     result2 = RunMain().run_main('get', 'https://t-u1.sancaijia.net/api/v1/user/address/address_list',None,gettoken())
     print(result1)
